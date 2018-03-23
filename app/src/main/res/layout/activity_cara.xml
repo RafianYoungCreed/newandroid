@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gf"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="1"
+    tools:context="assalaam.projetc.id.tatacarakurban.Cara">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Cara"
+        android:gravity="left"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:fontFamily="cursive"
+        android:textColor=""/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.Menggunakan pisau yang tajam, semakin tajam pisaunya, maka akan semakin baik. Hal ini telah didasarkan oleh hadist Syaddad Bin Aus radhiallahu ‘anhu, jika Nabi SAW berkata. ” Sesungguhnya Allah SWT mewajibkan melakukan ihsan dalam segala macam hal. Apabila kalian membunuh, maka bunuhlah secara ihsan, dan jika kalian menyembelih, maka sembelihlah secara ihsan. Hendaknya kalian mempertajam pisau dan menyenangkan sembelihnya.” (HR. Muslim)."
+        android:textColor=""
+        android:id="@+id/textView2"
+        android:layout_marginTop="80dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.Baiknya tidak mengasah pisau yang akan digunakan untuk menyembelih dihadapan hewan yg akan disembelih. Hal ini dapat membuat hewan yang akan disembelih itu takut sebelum disembelih, hal ini didasarkan pada hadist Ibnu Umar radhiallahu ‘anhuma yang mengatakan “Rasulullah SAW memerintahkan agar mengasah pisau tanpa memperlihatkan kepada hewan.” (HR. Ahmad, Ibnu Majah)."
+            android:textColor=""
+            android:id="@+id/textView3"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3.Menghadapkan hewan ke kiblat."
+            android:textColor=""
+            android:id="@+id/textView4"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.Membaringkan hewan qurban diatas lambung sisi kiri."
+            android:textColor=""
+            android:id="@+id/textView5"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5.Menginjakan kaki pada bagian leher hewan."
+            android:textColor=""
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6.Membaca Basmalah hendak akan menyembelih."
+            android:textColor=""
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7.Membaca takbir."
+            android:textColor=""
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8.Menyebutkan nama orang yang akan menjadi tujuan hewan qurban tersebut."
+            android:textColor=""
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9.Menyembelih dengan cepat supaya meringankan apa yang sedang dialami hewan."
+            android:textColor=""
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10.Memastikan pada bagian kerongkongan, tenggorokan, atau dua urat leher itu telah terpotong dengan pasti."
+            android:textColor=""
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="11.Dilarang mematahkan leher sebelum hewan tersebut benar-benar mati."
+            android:textColor=""
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/gf"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="1"
+    tools:context="assalaam.projetc.id.tatacarakurban.Cara">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Alat"
+        android:gravity="center"
+        android:id="@+id/textView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:fontFamily="cursive"
+        android:textColor=""
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="tali"
+        android:layout_width="150px"
+        android:layout_height="50px"
+        android:id="@+id/tali"
+        android:fontFamily="cursive"
+        android:textColor="#00008B"
+        android:background="@drawable/xxz"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+            android:text="Golok"
+            android:layout_width="150px"
+            android:layout_height="50px"
+            android:id="@+id/golok"
+            android:fontFamily="cursive"
+            android:textColor="#00008B"
+            android:background="@drawable/xxz"
+            android:layout_marginTop="10dp" />
+        <Button
+            android:text="Pisau"
+            android:layout_width="150px"
+            android:layout_height="50px"
+            android:id="@+id/pisau"
+            android:fontFamily="cursive"
+            android:textColor="#00008B"
+            android:background="@drawable/xxz"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:text="Kampak"
+            android:layout_width="150px"
+            android:layout_height="50px"
+            android:id="@+id/kampak"
+            android:fontFamily="cursive"
+            android:textColor="#00008B"
+            android:background="@drawable/xxz"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:text="Timbangan"
+            android:layout_width="150px"
+            android:layout_height="50px"
+            android:id="@+id/timbang"
+            android:fontFamily="cursive"
+            android:textColor="#00008B"
+            android:background="@drawable/xxz"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:text="kantong plastik"
+            android:layout_width="150px"
+            android:layout_height="50px"
+            android:id="@+id/keresek"
+            android:fontFamily="cursive"
+            android:textColor="#00008B"
+            android:background="@drawable/xxz"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+</ScrollView>
